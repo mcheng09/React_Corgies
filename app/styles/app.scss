@@ -6,4 +6,6 @@
 @include foundation-everything;
 
 // Components
+@import "components/main";
 @import "components/nav";
+@import "components/title";

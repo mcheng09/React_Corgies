@@ -1,13 +1,18 @@
 var React = require('react');
 
 var Nav = require('Nav');
+var Title = require('Title');
 
 var Main = React.createClass({
   render: function() {
     return (
       <div>
-        <Nav />
-        <h3>Main Component</h3>
+        <div className="main-background">
+          <Nav />
+          <div className="columns small-8 small-offset-2 end">
+            <Title />
+          </div>
+        </div>
       </div>
     )
   }
