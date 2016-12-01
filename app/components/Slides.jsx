@@ -4,7 +4,9 @@ var Slides = React.createClass({
   render: function() {
     return (
       <div>
-        <h3>Slides Component</h3>
+        <div className="slides">
+          <img data-interchange="[img/corgie1.jpg, small], [img/corgie2.jpg, medium], [img/corgie3.jpg, large]" />
+        </div>
       </div>
     )
   }
